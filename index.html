@@ -4,12 +4,18 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CV</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <link href="./css/style.css" rel="stylesheet" />
+        <link href="./image/cv.png" rel="icon" />
     </head>
     <body>
         <img
-            title="Foto Yelunina"
-            width="230px"
-            height="300px"
+            title="Foto Yelunina&copy;"
             src="./image/frame_1.jpg"
             alt="Foto Yelunina Iryna"
         />
@@ -21,7 +27,7 @@
             products with your logo
         </p>
         <h2>Projects</h2>
-        <ol>
+        <ol id="projects">
             <li>
                 <a
                     href="https://vip-print.ua/ru/search/index.php?s=&q=14019"
@@ -100,33 +106,59 @@
             I started as a souvenir sales manager and still love this part of my
             job. Travel addict, learning to make websites, cats fan.
         </p>
-        <h2>Soft Skills</h2>
-        <ul>
-            <li>dependable</li>
-            <li>а quick learner</li>
-            <li>hardworking</li>
-            <li>open to change</li>
-            <li>able to prioritize</li>
-            <li>have planning skills</li>
-            <li>keep deadlines successfully</li>
-            <li>detail-oriented</li>
-            <li>natural leader</li>
-            <li>adapt well to new situations</li>
-            <li>а team player</li>
-            <li>well-organized</li>
-        </ul>
-        <h2>Tech Skills</h2>
-        <ul>
-            <li>Word, Exsel, Internet</li>
-            <li>Terrasoft</li>
-            <li>Adobe</li>
-            <li>GIT</li>
-            <li>Java</li>
-            <li>Basic German, Intermediate English</li>
-            <li>Driving License (Category B, C)</li>
-        </ul>
-        <h4>Contacts</h4>
-        <p>C: +38 097 906 67 64</p>
-        <p>E: lucky.asterisk@gmail.com</p>
+        <table>
+            <tr>
+                <th id="soft">Soft Skills</th>
+                <th id="tech">Tech Skills</th>
+            </tr>
+            <tr>
+                <td>dependable</td>
+                <td>Word</td>
+            </tr>
+            <tr>
+                <td>quick learner</td>
+                <td>Exsel</td>
+            </tr>
+            <tr>
+                <td>hardworking</td>
+                <td>Internet</td>
+            </tr>
+            <tr>
+                <td>open to change</td>
+                <td>Terrasoft</td>
+            </tr>
+            <tr>
+                <td>able to prioritize</td>
+                <td>Adobe</td>
+            </tr>
+            <tr>
+                <td>have planning skills</td>
+                <td>GIT</td>
+            </tr>
+            <tr>
+                <td>natural leader</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>team player</td>
+                <td>Basic German</td>
+            </tr>
+            <tr>
+                <td>keep deadlines successfully</td>
+                <td>Intermediate English</td>
+            </tr>
+            <tr>
+                <td>well-organized</td>
+                <td>Driving License (Category B, C)</td>
+            </tr>
+        </table>
+        <h2>Contacts</h2>
+        <p id="contacts">
+            <span id="tel">&#9990;</span>: +38 097 906 67 64
+            <span
+                ><span id="email">&#128386;</span>:
+                lucky.asterisk@gmail.com</span
+            >
+        </p>
     </body>
 </html>
